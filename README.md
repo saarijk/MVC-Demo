@@ -46,4 +46,9 @@ The next step is to create the view for “Random”. I manually created a folde
 
 For this to be possible, I had to add a line at the very top that functions similarly to the “using” keyword, a directive that will allow us to find the correct properties to the model we wish to use. “@model MVC_KatDemo.Models.Movie” allowed me to retrieve specific properties of Model in the html section. 
 
+Now we can test the functionality of what we’ve got so far by pressing CTRL + F5. In my case, this takes me to a localhost page and I need to manually type in: Movies/Random to get to the page I want to see:
+
+![testing](https://64.media.tumblr.com/e9741784108e6aa25c4f0bc999904f9d/tumblr_inline_rehr3o40B81x0d52v_1280.png)
+
+
 ***
