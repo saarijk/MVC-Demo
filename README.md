@@ -42,10 +42,15 @@ For this to be possible, I had to add a line at the very top that functions simi
 
 ### Notes for editing this document
 For links: [link name] (target url "link title") --> [Github] (https://www.github.com "Github home")
+
 _Italic text_
+
 **Bold text**
+
 ~~Strikethrough~~
+
 For images: [imagename] (target url)
+
 To create tables: 
 |Name|Email|Address|
 |----|-----|-------|
