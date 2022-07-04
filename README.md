@@ -20,7 +20,7 @@ What makes this architecture strong is that each component has a distinct role t
 ## Setting up Controller Environment
 I set up Visual Studio 2019 for the purpose of creating this application. I downloaded **Productivity Power Tools 2017/2019** and **Web Essentials 2019** to help create this application. 
 
-##Starting up the ASP.NET MVC app
+## Starting up the ASP.NET MVC app
 I opened Visual Studio 2019 and created a new ASP.NET Core Web API in C#. The Solution Explorer shows some of the automatically created folders for this project. In there we should find at least folders for Controllers, Models, and Views. These will be populated by the classes, actions and other files we need to make this application work properly. By convention, when we use a controller, ASP.NET looks for a view under the same name, and in the case of the version of Visual Studio I was working with, I had to create those folders manually. 
 
 The first step was to create basic functionality for this application. 
