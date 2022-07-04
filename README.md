@@ -29,7 +29,7 @@ I added a new public class in Models called Movie. I gave it two properties to r
 
 A short note on naming conventions in C#: 
 >Pascal case (PascalCase) is used when naming classes, records, structs, naming public members of types (fields, properties, events, methods, and local functions), and the parameters when writing positional records. When naming interfaces, the pascal casing is used with an additional letter i as the prefix for the name (IPascalCase). 
->Camel casing (camelCasing) is used when naming private or internal fields, usually prefixed with an underscore (_), such as “_camelCase”. When we work with private or internal static fields, we use the “s_” prefix, and “t_” prefix for threaded static. Method parameters are usually written in camel casing as well. 
+>Camel casing (camelCasing) is used when naming private or internal fields, usually prefixed with an underscore. When we work with private or internal static fields, we use the “s_” prefix, and “t_” prefix for threaded static. Method parameters are usually written in camel casing as well. 
 
 The next step is to create a simple controller to retrieve a random movie. To do this, I added a new empty controller under Controllers named MoviesController and changed the automatically generated method name form Index() to Random(). 
 
