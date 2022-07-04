@@ -1,9 +1,9 @@
-#ASP.NET MVC 5
+# ASP.NET MVC 5
 ***
-##Introduction
+## Introduction
 The purpose of this project is to create an application that could be used for renting movies with functionalities relating to customer and movie management. Admins will be able to modify existing data, while other users will be given a read-only view. 
 
-##MVC Architectural Pattern
+## MVC Architectural Pattern
 MVC stands for Model, View and Controller. This architecture is widely used in the web for the purpose of implementing user interfaces. 
 
 Model consists of classes that have properties and methods that purely represent the application state and rules. In other words, it contains application data and behaviour in terms of its domain. These are not tied to a user interface but are instead plain old CLR objects. 
@@ -17,7 +17,7 @@ It is the router’s job to choose the correct controller for a given request. C
 
 What makes this architecture strong is that each component has a distinct role to play in it, and so this leads to more maintainable applications. 
 
-##Setting up Controller Environment
+## Setting up Controller Environment
 I set up Visual Studio 2019 for the purpose of creating this application. I downloaded **Productivity Power Tools 2017/2019** and **Web Essentials 2019** to help create this application. 
 
 ##Starting up the ASP.NET MVC app
@@ -40,7 +40,7 @@ For this to be possible, I had to add a line at the very top that functions simi
 
 ***
 
-###Notes for editing this document
+### Notes for editing this document
 For links: [link name] (target url "link title") --> [Github] (https://www.github.com "Github home")
 _Italic text_
 **Bold text**
@@ -50,9 +50,12 @@ To create tables:
 |Name|Email|Address|
 |----|-----|-------|
 |John|john@example.com|Address1|
+
 Quotes: add a greater than symbol ">" at the start of the line
 >Quotes look like this
+
 To write code add ``` at the start and end of the clode block, and specify the language after the first ```.
+
 ```Language
 your code
  ```
