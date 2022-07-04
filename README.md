@@ -50,5 +50,10 @@ Now we can test the functionality of what we’ve got so far by pressing CTRL + 
 
 ![testing](https://64.media.tumblr.com/e9741784108e6aa25c4f0bc999904f9d/tumblr_inline_rehr3o40B81x0d52v_1280.png)
 
+With Visual Studio 2019, there is no App_start folder where there once was a file called BundleConfig.cs. Here we would have defined various bundles of client-side assets that would reduce the number of http requests when the page was loaded, making is load faster as a result. Instead of this approach, I found a nice theme to use on the ![bootswatch]( https://bootswatch.com/) website, downloaded its .css file, and simply rewrote the lines in the layout file that had references to boostrap.css.
+
+I pressed CTRL + F5 to compile this and the results speak for themselves: 
+![theme]( https://64.media.tumblr.com/e0af8068f2edc9944503de88fae02577/tumblr_inline_reib7vNh0f1x0d52v_500.png)
+
 
 ***
